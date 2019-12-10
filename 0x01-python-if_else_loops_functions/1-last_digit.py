@@ -7,7 +7,6 @@ else:
     cp = number % 10
 if (number < 0):
     cp *= -1
-print("cp = {}".format(cp))
 print("Last digit of {} is ".format(number), end='')
 if cp > 5:
     print("{} and is greater than 5".format(cp))
