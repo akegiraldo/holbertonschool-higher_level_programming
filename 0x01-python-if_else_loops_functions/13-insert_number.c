@@ -4,7 +4,7 @@
  * insert_node - entry point
  * @head: listint_t variable
  * @number: int variable
- * Return: 
+ * Return: listint variable
  */
 
 listint_t *insert_node(listint_t **head, int number)
