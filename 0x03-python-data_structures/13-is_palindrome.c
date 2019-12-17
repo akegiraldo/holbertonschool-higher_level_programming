@@ -1,0 +1,29 @@
+#include "lists.h"
+
+/**
+ * is_palindrome - entry point
+ * @head: listint variable
+ *
+ * Return: int variable
+*/
+
+int is_palindrome(listint_t **head)
+{
+	int vector[1000], i = 0, j = 0;
+	listint_t *tmp;
+
+	tmp = *head;
+	while (tmp)
+		vector[i] = tmp->n, i++, tmp = tmp->next;
+	i--;
+	while (j < (i / 2))
+	{
+		if (vector[j] != vector[i])
+		{
+			return (0);
+		}
+		i--;
+		j++;
+	}
+	return (1);
+}
