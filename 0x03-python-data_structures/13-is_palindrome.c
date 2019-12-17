@@ -9,12 +9,11 @@
 
 int is_palindrome(listint_t **head)
 {
-	int vector[1000], i = 0, j = 0, t = 0;
+	int vector[1000000], i = 0, j = 0, t = 0;
 	listint_t *tmp;
 
-	if (!head || !*head)
+	if (head == NULL || (*head) == NULL)
 		return (1);
-
 	tmp = *head;
 	while (tmp)
 		vector[i] = tmp->n, i++, tmp = tmp->next;
