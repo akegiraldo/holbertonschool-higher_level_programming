@@ -9,22 +9,26 @@
 
 int is_palindrome(listint_t **head)
 {
-	int vector[1000000], i = 0, j = 0, t = 0;
-	listint_t *tmp;
+	int array[999999], i = 0, j = 0, ls_sz = 0;
+	listint_t *aux;
 
 	if (head == NULL || (*head) == NULL)
 		return (1);
-	tmp = *head;
-	while (tmp)
-		vector[i] = tmp->n, i++, tmp = tmp->next;
-	i--;
-	if (i % 2 != 0)
-		t = (i + 1) / 2;
-	else
-		t = i / 2;
-	while (j < t)
+	aux = *head;
+	while (aux != NULL)
 	{
-		if (vector[j] != vector[i])
+		array[i] = aux->n;
+		aux = aux->next;
+		i++;
+	}
+	i-=1;
+	if (i % 2 != 0)
+		ls_sz = (i + 1) / 2;
+	else
+		ls_sz = i / 2;
+	while (j < ls_sz)
+	{
+		if (array[j] != array[i])
 			return (0);
 		i--;
 		j++;
