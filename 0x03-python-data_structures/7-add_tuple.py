@@ -19,5 +19,5 @@ def add_tuple(tuple_a=(), tuple_b=()):
     else:
         v_b1 = tuple_b[0]
         v_b2 = tuple_b[1]
-    tuple_c=(v_a1+v_b1, v_a2+v_b2)
+    tuple_c = (v_a1 + v_b1, v_a2 + v_b2)
     return tuple_c
