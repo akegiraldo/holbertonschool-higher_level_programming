@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 
+
 class Square():
-    
+
     def __init__(self, size=0):
         a = 0
         try:
