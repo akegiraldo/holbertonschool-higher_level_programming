@@ -21,7 +21,7 @@ class Rectangle():
         if value < 0:
             raise ValueError("width must be >= 0")
         self.__width = value
-        
+
     @property
     def height(self):
         return self.__height
@@ -49,12 +49,12 @@ class Rectangle():
         for i in range(self.__height):
             for j in range(self.__width):
                 rec += "#"
-            if i != self.__height - 1: 
+            if i != self.__height - 1:
                 rec += "\n"
         return rec
 
     def __repr__(self):
-        return 'Rectangle(%s, %s)' %(self.__width, self.__height)
+        return 'Rectangle(%s, %s)' % (self.__width, self.__height)
 
     def __del__(self):
         Rectangle.number_of_instances -= 1
