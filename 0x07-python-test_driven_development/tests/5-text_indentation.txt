@@ -1,0 +1,60 @@
+======================
+5.text_indentation module
+======================
+
+Import module:
+	>>> text_indentation = __import__('5-text_indentation').text_indentation
+
+Function:
+=======.
+A function that a function that prints a text with 2 new lines
+after each of these characters: ., ? and :
+Operations:
+=========
+text must be a string, otherwise raise a TypeError exception with the message text must be a string
+There should be no space at the beginning or at the end of each printed line
+
+Passing a number as parameter:
+    >>> text_indentation(6)
+    Traceback (most recent call last):
+    TypeError: text must be a string
+
+Passing delimeters and spaces:
+    >>> text_indentation("   ?:.   ")
+    ?
+    <BLANKLINE>
+    :
+    <BLANKLINE>
+    .
+    <BLANKLINE>
+
+Passing delimeters and spaces:
+    >>> text_indentation("  .??:?.  ")
+    .
+    <BLANKLINE>
+    ?
+    <BLANKLINE>
+    ?
+    <BLANKLINE>
+    :
+    <BLANKLINE>
+    ?
+    <BLANKLINE>
+    .
+<BLANKLINE>
+
+'text' is not str:
+	>>> text_indentation(5)
+	Traceback (most recent call last):
+	TypeError: text must be a string
+
+'text' is string:
+	>>> text_indentation("Hola")
+Hola
+
+Text and more delimeters and spaces as parameters:
+    >>> text_indentation("Plus semper voluptatis?     Teneo, inquit, finem illi videri nihil dolere.")
+    Plus semper voluptatis?
+    <BLANKLINE>
+    Teneo, inquit, finem illi videri nihil dolere.
+<BLANKLINE>

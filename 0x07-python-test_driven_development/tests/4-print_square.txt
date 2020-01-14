@@ -1,0 +1,76 @@
+====================
+3. Print square module:
+====================
+
+import module:
+	>>> print_square = __import__('4-print_square').print_square
+
+
+Function:
+=======.
+Write a function that prints a square with the character ‘#’
+Operations:
+=========
+size is the size length of the square, size must be an integer, otherwise 
+raise a TypeError exception with the message size must be an integer
+
+normal output:
+>>> print_square(4)
+####
+####
+####
+####
+
+passing not integer as parameter:
+>>> print_square("p")
+Traceback (most recent call last):
+TypeError: size must be an integer
+
+passing a negative as parameter:
+>>> print_square(-1)
+Traceback (most recent call last):
+ValueError: size must be >= 0
+
+passing a float as parameter:
+    >>> print_square(2.5)
+    Traceback (most recent call last):
+    TypeError: size must be an integer
+
+None as parameter:
+    >>> print_square(None)
+    Traceback (most recent call last):
+TypeError: size must be an integer
+
+None:
+    >>> print_square(None)
+    Traceback (most recent call last):
+    TypeError: size must be an integer
+
+More parameters:
+    >>> print_square(3, 9)
+    Traceback (most recent call last):
+    TypeError: print_square() takes 1 positional argument but 2 were given
+
+Zero:
+    >>> print_square(0)
+
+'size' is float:
+	>>> print_square(0.5)
+	Traceback (most recent call last):
+TypeError: size must be an integer
+
+Normal square:
+    >>> print_square(3)
+    ###
+    ###
+    ###
+ 
+Without parameter:
+    >>> print_square()
+    Traceback (most recent call last):
+    TypeError: print_square() missing 1 required positional argument: 'size'
+   
+String:
+    >>> print_square('world')
+    Traceback (most recent call last):
+TypeError: size must be an integer
