@@ -35,13 +35,13 @@ class Rectangle():
         return self.__width * self.__height
 
     def perimeter(self):
-        if self.__width == 0 and self.__height == 0:
+        if self.__width == 0 or self.__height == 0:
             return 0
         return (self.__width + self.__height) * 2
 
     def __str__(self):
         rec = ""
-        if self.__width == 0 and self.__height == 0:
+        if self.__width == 0 or self.__height == 0:
             return rec
         for i in range(self.__height):
             for j in range(self.__width):
@@ -50,5 +50,5 @@ class Rectangle():
                 rec += "\n"
         return rec
 
-    ##def __repr__(self):
-        ##return self
+    def __repr__(self):
+        return 'Rectangle(%s, %s)' %(self.__width, self.__height)
