@@ -1,4 +1,4 @@
 def magic_string():
-    for i in range(limit):
-        print("Holberton", end=", ")
+    global limit
     limit += 1
+    return "Holberton" * limit
