@@ -3,6 +3,6 @@ import json
 
 
 def load_from_json_file(filename):
-    with open(filename, encoding='UTF8') as a:
+    with open(filename, encoding="UTF-8") as a:
         txt = a.read()
-        return (json.loads(txt))
+        return json.loads(txt)
