@@ -3,6 +3,6 @@ import json
 
 
 def save_to_json_file(my_obj, filename):
-    with open(filename, mode="w", encoding="UTF-8") as f:
+    with open(filename, mode="w", encoding="UTF-8") as a:
         txt = json.dumps(my_obj)
-        f.write(txt)
+        a.write(txt)
