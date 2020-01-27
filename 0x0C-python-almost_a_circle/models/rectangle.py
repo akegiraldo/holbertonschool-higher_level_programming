@@ -87,5 +87,5 @@ class Rectangle(Base):
     def __str__(self):
         """ --- """
         return "[" + __class__.__name__ + "] (" + str(self.id) + ") " + \
-                str(self.__x) + "/"+str(self.__y) + " - " + \
-                str(self.__width) + "/" + str(self.__height)
+               str(self.__x) + "/"+str(self.__y) + " - " + \
+               str(self.__width) + "/" + str(self.__height)
