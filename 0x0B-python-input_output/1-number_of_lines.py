@@ -7,4 +7,3 @@ def number_of_lines(filename=""):
         for line in a:
             i += 1
     return i
-
