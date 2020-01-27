@@ -89,3 +89,10 @@ class Rectangle(Base):
         return "[" + __class__.__name__ + "] (" + str(self.id) + ") " + \
                str(self.__x) + "/"+str(self.__y) + " - " + \
                str(self.__width) + "/" + str(self.__height)
+
+    def display(self):
+        """ --- """
+        for y in range(self.__y):
+            print("")
+        for i in range(self.__height):
+            print(" "*self.__x + "#"*self.__width)
