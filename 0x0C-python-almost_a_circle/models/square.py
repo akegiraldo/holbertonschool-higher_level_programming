@@ -9,6 +9,16 @@ class Square(Rectangle):
     def __init__(self, size, x=0, y=0, id=None):
         super().__init__(size, size, x, y, id)
 
+    @property
+    def size(self):
+        return self.width
+
+    @size.setter
+    def size(self, val):
+        super().valwh("width", val)
+        self.width = val
+        self.height = val
+
     def __str__(self):
         """ --- """
         return "[" + __class__.__name__ + "] (" + str(self.id) + ") " +\
