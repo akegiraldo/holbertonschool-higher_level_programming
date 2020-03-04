@@ -1,2 +1,3 @@
 -- Script that displays the max temperature of each state (ordered by State name).
-SELECT state "state", max(value) "max_temp" FROM temperatures GROUP BY state ORDER BY state ASC LIMIT 3;
+USE hbtn_0c_0;
+SELECT state "state", max(value) "max_temp" FROM temperatures GROUP BY state ORDER BY state ASC;
