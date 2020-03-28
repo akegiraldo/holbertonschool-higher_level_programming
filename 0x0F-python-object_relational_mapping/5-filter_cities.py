@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 # Use MySQLdb with python3
 
 if __name__ == '__main__':
