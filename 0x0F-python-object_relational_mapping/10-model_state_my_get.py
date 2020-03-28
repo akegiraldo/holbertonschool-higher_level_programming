@@ -13,9 +13,10 @@ if __name__ == '__main__':
 	Session.configure(bind=engine)
 	session = Session()
 
-	for row in session.query(State).order_by(State.id).filter(State.name == argv[4]):
-		if row:
-			print(row.id)
-		else:
-			print("Not found")
+	size = session.query(State).order_by(State.id).filter(State.name == argv[4]).count()
 	
+	if size > 0:
+		for row in session.query(State).order_by(State.id).filter(State.name == argv[4]):
+			print(row.id)
+	else:
+		print("Not found")	
