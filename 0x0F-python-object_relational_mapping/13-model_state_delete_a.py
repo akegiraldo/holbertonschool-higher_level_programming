@@ -14,9 +14,9 @@ if __name__ == '__main__':
         Session.configure(bind=engine)
         session = Session()
 
-        size = session.query(State).filter(State.name.like('%a%')).count()
+        size = session.query(State).filter(State.name.ilike('%a%')).count()
         for i in range(size):
                 row = session.query(State).filter(State.name
-                                                  .like('%a%')).first()
+                                                  .ilike('%a%')).first()
                 session.delete(row)
         session.commit()
