@@ -8,3 +8,4 @@ In this project we work two different python libraries to obtain information fro
 |File name              |Description                         |
 |-----------------------|------------------------------------|
 |[0-hbtn_status.py](0-hbtn_status.py)|Script that fetches https://intranet.hbtn.io/status|
+|[1-hbtn_header](1-hbtn_header.py)|Script that takes in a URL, sends a request to the URL and displays the value of the X-Request-Id variable found in the header of the response.|
