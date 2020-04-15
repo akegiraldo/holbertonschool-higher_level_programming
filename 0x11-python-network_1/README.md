@@ -13,3 +13,4 @@ In this project we work two different python libraries to obtain information fro
 |[3-error_code](3-error_code.py)|Script that takes in a URL, sends a request to the URL and displays the body of the response (decoded in utf-8).|
 |[4-hbtn_status](4-hbtn_status.py)|Script that fetches https://intranet.hbtn.io/status|
 |[5-hbtn_header](5-hbtn_header.py)|Script that takes in a URL, sends a request to the URL and displays the value of the variable X-Request-Id in the response header.|
+|[6-post_email](6-post_email.py)|Script that takes in a URL and an email address, sends a POST request to the passed URL with the email as a parameter, and finally displays the body of the response.|
