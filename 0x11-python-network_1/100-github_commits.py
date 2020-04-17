@@ -11,7 +11,7 @@ from sys import argv
 if __name__ == "__main__":
     repo = argv[1]
     owner = argv[2]
-    url = "https://api.github.com/repos/"+repo+"/"+owner+"/commits"
+    url = "https://api.github.com/repos/"+owner+"/"+repo+"/commits"
     try:
         r = requests.get(url).json()
         i = 0
