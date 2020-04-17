@@ -12,8 +12,6 @@ if __name__ == "__main__":
     repo = argv[1]
     owner = argv[2]
     url = "https://api.github.com/repos/"+repo+"/"+owner+"/commits"
-    print("URL:", url)
-
     try:
         r = requests.get(url).json()
         i = 0
