@@ -17,3 +17,4 @@ In this project we work two different python libraries to obtain information fro
 |[7-error_code](7-error_code.py)|Script that takes in a URL, sends a request to the URL and displays the body of the response.|
 |[8-json_api](8-json_api.py)|Script that takes in a letter and sends a POST request to http://0.0.0.0:5000/search_user with the letter as a parameter.|
 |[10-my_github](10-my_github.py)|Script that takes your Github credentials (username and password) and uses the Github API to display your id.|
+|[100-github_commits](100-github_commits.py)|Python script that takes 2 arguments in order to solve this challenge:<br>Please list 10 commits (from the most recent to oldest) of the repository “rails” by the user “rails”.|
