@@ -26,3 +26,4 @@ For the moment, and for learning all basic concepts of this language, we will do
 |[13-add](13-add.js)|Function that returns the addition of 2 integers.|
 |[100-let_me_const](100-let_me_const.js)|File that modifies the value of myVar to 333.|
 |[101-call_me_moby](101-call_me_moby.js)|Function that executes x times a function.|
+|[102-add_me_maybe](102-add_me_maybe.js)|Function that increments and calls a function.|
