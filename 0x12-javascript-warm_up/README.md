@@ -21,3 +21,4 @@ For the moment, and for learning all basic concepts of this language, we will do
 |[8-square](8-square.js)|Script that prints a square.|
 |[9-add](9-add.js)|Script that prints the addition of 2 integers.|
 |[10-factorial](10-factorial.js)|Script that computes and prints a factorial.|
+|[11-second_biggest](11-second_biggest.js)|Script that searches the second biggest integer in the list of arguments.|
