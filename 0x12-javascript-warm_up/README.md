@@ -19,3 +19,4 @@ For the moment, and for learning all basic concepts of this language, we will do
 |[6-multi_languages_loop](6-multi_languages_loop.js)|Script that prints 3 lines: (like [1-multi_languages](1-multi_languages.js)) but by using an array of string and a loop.|
 |[7-multi_c](7-multi_c.js)|Script that prints x times “C is fun”.|
 |[8-square](8-square.js)|Script that prints a square.|
+|[9-add](9-add.js)|Script that prints the addition of 2 integers.|
