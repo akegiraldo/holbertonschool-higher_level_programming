@@ -10,6 +10,8 @@ if (process.argv.length < 4) {
     if (Number(av[i]) > biggest) {
       second = biggest;
       biggest = Number(av[i]);
+    } else if (Number(av[i]) > second) {
+      second = Number(av[i]);
     }
   }
   console.log(second);
