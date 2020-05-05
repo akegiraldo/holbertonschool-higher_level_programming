@@ -12,3 +12,4 @@ For the moment, and for learning all basic concepts of this language, we will do
 |-----------------------|------------------------------------|
 |[0-javascript_is_amazing](0-javascript_is_amazing.js)|Script that print a text.|
 |[1-multi_languages](1-multi_languages.js)|Script that prints three lines.|
+|[2-arguments](2-arguments.js)|Script that prints a message depending of the number of arguments passed.|
