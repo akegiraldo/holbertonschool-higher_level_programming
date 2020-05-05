@@ -20,3 +20,4 @@ For the moment, and for learning all basic concepts of this language, we will do
 |[7-multi_c](7-multi_c.js)|Script that prints x times “C is fun”.|
 |[8-square](8-square.js)|Script that prints a square.|
 |[9-add](9-add.js)|Script that prints the addition of 2 integers.|
+|[10-factorial](10-factorial.js)|Script that computes and prints a factorial.|
