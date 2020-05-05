@@ -11,3 +11,4 @@ For the moment, and for learning all basic concepts of this language, we will do
 |File name              |Description                         |
 |-----------------------|------------------------------------|
 |[0-javascript_is_amazing](0-javascript_is_amazing.js)|Script that print a text.|
+|[1-multi_languages](1-multi_languages.js)|Script that prints three lines.|
