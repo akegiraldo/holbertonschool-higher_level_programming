@@ -2,9 +2,9 @@
 
 ## Description
 
-Javascript is used for many things. At Holberton School, you will use Javascript for 2 reasons:
-    Scripting (same as we did with Python)
-    Web front-end
+Javascript is used for many things. At Holberton School, you will use Javascript for 2 reasons:<br>
+    Scripting (same as we did with Python)<br>
+    Web front-end<br>
 For the moment, and for learning all basic concepts of this language, we will do some scripting. 
 
 ## Task Index
@@ -14,3 +14,4 @@ For the moment, and for learning all basic concepts of this language, we will do
 |[1-multi_languages](1-multi_languages.js)|Script that prints three lines.|
 |[2-arguments](2-arguments.js)|Script that prints a message depending of the number of arguments passed.|
 |[3-value_argument](3-value_argument.js)|Script that prints the first argument passed to it.|
+|[4-concat](4-concat.js)|Script that prints two arguments passed to it, in the following format: " is "|
