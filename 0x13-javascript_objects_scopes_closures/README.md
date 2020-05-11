@@ -12,3 +12,4 @@ For the moment, and for learning all basic concepts of this language, we will do
 |-----------------------|------------------------------------|
 |[0-rectangle](0-rectangle.js)|Empty class Rectangle that defines a rectangle.|
 |[1-rectangle](1-rectangle.js)|- Initialize the instance attribute width with the value of w.<br>- Initialize the instance attribute height with the value of h.|
+|[2-rectangle](2-rectangle.js)|- If w or h is equal to 0 or not a positive integer, create an empty object.|
