@@ -17,3 +17,4 @@ For the moment, and for learning all basic concepts of this language, we will do
 |[4-rectangle](4-rectangle.js)|- Instance method called rotate() that exchanges the width and the height of the rectangle.<br>- Instance method called double() that multiples the width and the height of the rectangle by 2.|
 |[5-square](5-square.js)|Class Square that defines a square and inherits from Rectangle of 4-rectangle.js.|
 |[6-square](6-square.js)|Instance method called charPrint(c) that prints the rectangle using the character c.|
+|[7-occurrences](7-occurrences.js)|Function that returns the number of occurrences in a list.|
