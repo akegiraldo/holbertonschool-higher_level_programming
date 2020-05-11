@@ -18,3 +18,4 @@ For the moment, and for learning all basic concepts of this language, we will do
 |[5-square](5-square.js)|Class Square that defines a square and inherits from Rectangle of 4-rectangle.js.|
 |[6-square](6-square.js)|Instance method called charPrint(c) that prints the rectangle using the character c.|
 |[7-occurrences](7-occurrences.js)|Function that returns the number of occurrences in a list.|
+|[8-esrever](8-esrever.js)|Function that returns the reversed version of a list.|
