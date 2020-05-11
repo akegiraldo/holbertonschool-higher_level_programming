@@ -15,3 +15,4 @@ For the moment, and for learning all basic concepts of this language, we will do
 |[2-rectangle](2-rectangle.js)|- If w or h is equal to 0 or not a positive integer, create an empty object.|
 |[3-rectangle](3-rectangle.js)|- Instance method called print() that prints the rectangle using the character X.|
 |[4-rectangle](4-rectangle.js)|- Instance method called rotate() that exchanges the width and the height of the rectangle.<br>- Instance method called double() that multiples the width and the height of the rectangle by 2.|
+|[5-square](5-square.js)|Class Square that defines a square and inherits from Rectangle of 4-rectangle.js.|
