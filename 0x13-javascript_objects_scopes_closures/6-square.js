@@ -1,11 +1,7 @@
 #!/usr/bin/node
 // Instance method called charPrint(c) that prints the rectangle using the character c.
-const Rectangle = require('./4-rectangle');
-class Square extends Rectangle {
-  constructor (size) {
-    super(size, size);
-  }
-
+const square = require('./5-square');
+class Square extends square {
   charPrint (c) {
     let width = '';
     if (c === undefined) { c = 'X'; }
