@@ -19,3 +19,4 @@ For the moment, and for learning all basic concepts of this language, we will do
 |[6-square](6-square.js)|Instance method called charPrint(c) that prints the rectangle using the character c.|
 |[7-occurrences](7-occurrences.js)|Function that returns the number of occurrences in a list.|
 |[8-esrever](8-esrever.js)|Function that returns the reversed version of a list.|
+|[10-converter](10-converter.js)|Function that converts a number from base 10 to another base passed as argument.|
