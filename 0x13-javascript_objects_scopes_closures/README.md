@@ -10,4 +10,5 @@ For the moment, and for learning all basic concepts of this language, we will do
 ## Task Index
 |File name              |Description                         |
 |-----------------------|------------------------------------|
-|[0-rectangle](0-rectangle.js)|Write an empty class Rectangle that defines a rectangle.|
+|[0-rectangle](0-rectangle.js)|Empty class Rectangle that defines a rectangle.|
+|[1-rectangle](1-rectangle.js)|- Initialize the instance attribute width with the value of w.<br>- Initialize the instance attribute height with the value of h.|
