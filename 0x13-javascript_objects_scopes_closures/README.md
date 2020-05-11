@@ -22,3 +22,4 @@ For the moment, and for learning all basic concepts of this language, we will do
 |[9-logme](9-logme.js)|Function that prints the number of arguments already printed and the new argument value.|
 |[10-converter](10-converter.js)|Function that converts a number from base 10 to another base passed as argument.|
 |[100-map](100-map.js)|Script that imports an array and computes a new array.|
+|[101-sorted](101-sorted.js)|Script that imports a dictionary of occurrences by user id and computes a dictionary of user ids by occurrence.|
