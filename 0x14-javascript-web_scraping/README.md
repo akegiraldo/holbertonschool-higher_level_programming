@@ -18,3 +18,4 @@ For the moment, and for learning all basic concepts of this language, we will do
 |[5-request_store](5-request_store.js)|Sscript that gets the contents of a webpage and stores it in a file.|
 |[6-completed_tasks](6-completed_tasks.js)|Script that computes the number of tasks completed by user id.|
 |[100-starwars_characters](100-starwars_characters.js)|Script that prints all characters of a Star Wars movie.|
+|[101-starwars_characters](101-starwars_characters.js)|Script that prints all characters of a Star Wars movie in the same order of the list “characters” in the `/films/` response.|
