@@ -12,3 +12,4 @@ For the moment, and for learning all basic concepts of this language, we will do
 |-----------------------|------------------------------------|
 |[0-readme](0-readme.js)|Script that reads and prints the content of a file.|
 |[1-writeme](1-writeme.js)|Script that writes a string to a file.|
+|[2-statuscode](2-statuscode.js)|Script that display the status code of a GET request.|
