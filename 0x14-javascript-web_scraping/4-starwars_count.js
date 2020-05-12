@@ -12,7 +12,9 @@ request(url, function (err, response, body) {
 
   for (const movie of movies) {
     const people = movie.characters;
-    if (people.includes('https://swapi-api.hbtn.io/api/people/18/')) { count++; }
+    for (const character of people) {
+      if (character.includes('18')) { count++; }
+    }
   }
 
   console.log(count);
