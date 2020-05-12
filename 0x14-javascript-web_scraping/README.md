@@ -11,3 +11,4 @@ For the moment, and for learning all basic concepts of this language, we will do
 |File name              |Description                         |
 |-----------------------|------------------------------------|
 |[0-readme](0-readme.js)|Script that reads and prints the content of a file.|
+|[1-writeme](1-writeme.js)|Script that writes a string to a file.|
