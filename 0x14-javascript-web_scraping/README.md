@@ -17,3 +17,4 @@ For the moment, and for learning all basic concepts of this language, we will do
 |[4-starwars_count](4-starwars_count.js)|Script that prints the number of movies where the character “Wedge Antilles” is present.|
 |[5-request_store](5-request_store.js)|Sscript that gets the contents of a webpage and stores it in a file.|
 |[6-completed_tasks](6-completed_tasks.js)|Script that computes the number of tasks completed by user id.|
+|[100-starwars_characters](100-starwars_characters.js)|Script that prints all characters of a Star Wars movie.|
