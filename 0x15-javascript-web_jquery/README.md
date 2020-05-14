@@ -22,3 +22,4 @@ For the moment, and for learning all basic concepts of this language, we will do
 |[9-script](9-script.js)|Script that fetches from `https://fourtonfish.com/hellosalut/?lang=fr` and displays the value of hello from that fetch in the HTML’s tag DIV#hello.|
 |[100-script](100-script.js)|Script that updates the text color of the HTML tag HEADER to red (#FF0000).|
 |[101-script](101-script.js)|Script that adds, removes and clears LI elements from a list when the user clicks.|
+|[102-script](102-script.js)|Script that fetches and prints how to say “Hello” depending of the language.|
