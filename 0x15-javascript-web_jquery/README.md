@@ -11,3 +11,4 @@ For the moment, and for learning all basic concepts of this language, we will do
 |File name              |Description                         |
 |-----------------------|------------------------------------|
 |[0-script](0-script.js)|Script that updates the text color of the HTML tag HEADER to red (#FF0000).|
+|[1-script](1-script.js)|Script that updates the text color of the HTML tag HEADER to red (#FF0000).|
