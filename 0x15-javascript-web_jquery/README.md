@@ -23,3 +23,4 @@ For the moment, and for learning all basic concepts of this language, we will do
 |[100-script](100-script.js)|Script that updates the text color of the HTML tag HEADER to red (#FF0000).|
 |[101-script](101-script.js)|Script that adds, removes and clears LI elements from a list when the user clicks.|
 |[102-script](102-script.js)|Script that fetches and prints how to say “Hello” depending of the language.|
+|[103-script](103-script.js)|Script that fetches and prints how to say “Hello” depending of the language.|
