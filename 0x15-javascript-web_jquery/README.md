@@ -20,3 +20,4 @@ For the moment, and for learning all basic concepts of this language, we will do
 |[7-script](7-script.js)|Script that fetches and replaces the name of this URL: `https://swapi-api.hbtn.io/api/people/5/?format=json`.|
 |[8-script](8-script.js)|Script that fetches and lists all movies title by using this URL: `https://swapi-api.hbtn.io/api/films/?format=json`.|
 |[9-script](9-script.js)|Script that fetches from `https://fourtonfish.com/hellosalut/?lang=fr` and displays the value of hello from that fetch in the HTML’s tag DIV#hello.|
+|[100-script](100-script.js)|Script that updates the text color of the HTML tag HEADER to red (#FF0000).|
