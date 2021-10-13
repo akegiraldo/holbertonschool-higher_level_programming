@@ -13,7 +13,7 @@ class Student:
     def to_json(self, attributes=None):
         all_attributes = self.__dict__.copy()
 
-        if attributess and isinstance(attributes, list):
+        if attributes and isinstance(attributes, list):
             for key in self.__dict__.keys():
                 if key not in attributes:
                     del all_attributes[key]
